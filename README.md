@@ -11,9 +11,7 @@ proper bearded dragon health; temperature, light and humidity, hardware was proc
 address the challenge. An Arduino UNO microcontroller board was chosen to support three 
 different sensors, allowing data collection of the aforementioned environmental variables. 
 Additionally, an LCD screen was employed to facilitate rapid understanding of current tank 
-condition data to the caretaker, and the entire system packaged for ease of deployment. Despite 
-an unprecedented global health crisis putting strain on component availability, team meetings
-and testing, this project yielded a simple and powerful device to augment routine lizard care.
+condition data to the caretaker, and the entire system packaged for ease of deployment.
 
 **Background**
 Bearded dragons, like all reptiles, are ectotherms. Unlike mammals, reptiles are unable to actively 
