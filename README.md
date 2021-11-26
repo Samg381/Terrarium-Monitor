@@ -52,17 +52,14 @@ mounting enclosure.
 
 ![IMG_20200416_151552](https://user-images.githubusercontent.com/3127698/143528410-92995dea-f180-4384-a5b8-0df426663399.jpg)
 
-The sensor package (Fig. 5) consists of three environmental sensors external to the enclosure and 
+The sensor package consists of three environmental sensors external to the enclosure and 
 designed for placement within the terrarium. A DS18B20 Temperature sensor is powered via 5
 volts and provides an accuracy of ±0.5°C from -10°C to +85°C, outputting a 12-bit temperature to 
-a digital word value via the 1-Wire Arduino library [3]. Next, a SHTC3 humidity sensor supplied 
-with 3.3 volts offers a relative humidity (RH) reading of ±2% [4]. Finally, a SEN-09088 Mini 
+a digital word value via the 1-Wire Arduino library. Next, a SHTC3 humidity sensor supplied 
+with 3.3 volts offers a relative humidity (RH) reading of ±2%. Finally, a SEN-09088 Mini 
 Photocell is powered with 5 volts and offers a varying level of resistance depending on lighting 
-conditions, with higher readings corresponding to lower ambient light levels [5]. This relationship 
-required manual calibration in order to match known light levels to resistances. Due to the lack 
-of a terrarium as a result of COVID-19, an oven fume hood lamp was used as an analog to a 
-replicate the terrarium light. This will require adjustment should the system eventually be 
-installed in a lizard tank
+conditions, with higher readings corresponding to lower ambient light levels. This relationship 
+required manual calibration in order to match known light levels to resistances.
 
 **Construction Photos**
 
